@@ -76,7 +76,7 @@ const HeroSection = () => (
             rel="noopener noreferrer"
             className="inline-block bg-white hover:bg-white/90 text-black text-xl font-bold px-12 py-6 transition-all duration-300 hover:scale-105 border-2 border-white"
           >
-            コミュニティに参加する
+            Discordに参加する
           </a>
         </motion.div>
       </motion.div>
@@ -110,7 +110,7 @@ const AboutSection = () => (
           <div className="space-y-4">
             <div className="w-16 h-px bg-accent"></div>
             <h2 className="text-display font-black text-foreground">
-              Our Mission
+              私たちのミッション
             </h2>
           </div>
           
@@ -119,12 +119,12 @@ const AboutSection = () => (
               サトルプロジェクトは、学校や社会になじめない子どもたちを支援するプロジェクトです。
             </p>
             <p>
-              私たちは、一人ひとりの "しんどい" を理解し、温かいコミュニティを通じて
-              個性を大切にする文化を広げています。
+              さとりの妖怪のサトルは、学校に馴染めず不登校を経験。社会に出てからも馴染めない日々を過ごしました。
+              しかし、Web3の世界で多くの仲間と出会い、個性を活かせる場所を見つけることができました。
             </p>
             <p>
-              完璧に生きる必要はありません。みんなそれぞれのペースで、
-              自分らしい道を歩んでいけばいいのです。
+              そんな体験から生まれたのがこのプロジェクト。学校に馴染めない子どもたちが、
+              新しい価値観と仲間に出会える場所を作りたいと願っています。
             </p>
             <p className="text-accent font-medium">
               "子どものような優しさ" を大切に、共感と理解の輪を広げていきます。
@@ -162,7 +162,7 @@ const StepsSection = () => (
         <motion.div variants={fadeInUp} className="text-center space-y-4">
           <div className="w-16 h-px bg-background mx-auto"></div>
           <h2 className="text-display font-black text-background">
-            How It Works
+            3つのステップ
           </h2>
         </motion.div>
         
@@ -171,7 +171,7 @@ const StepsSection = () => (
             { 
               number: "01", 
               title: "気づく", 
-              description: "自分の個性や可能性に気づく",
+              description: "マイノリティの理解 社会に馴染めないからこその個性がある",
               icon: (
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -182,7 +182,7 @@ const StepsSection = () => (
             { 
               number: "02", 
               title: "つながる", 
-              description: "同じ志を持つ仲間とつながる",
+              description: "社会不適合は部分不適合 新しい仲間と新天地へ",
               icon: (
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -192,7 +192,7 @@ const StepsSection = () => (
             { 
               number: "03", 
               title: "広げる", 
-              description: "新しい可能性を広げていく",
+              description: "アップデートした価値観をSNSで発信してあなたもクリエイター",
               icon: (
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -243,7 +243,7 @@ const BenefitsSection = () => (
         <motion.div variants={fadeInUp} className="text-center space-y-4">
           <div className="w-16 h-px bg-accent mx-auto"></div>
           <h2 className="text-display font-black text-foreground">
-            Why Join Us
+            参加する理由
           </h2>
         </motion.div>
         
@@ -251,7 +251,7 @@ const BenefitsSection = () => (
           {[
             { 
               title: "自分らしさ", 
-              description: "ありのままの自分を受け入れる環境",
+              description: "ありのままの自分を受け入れる環境 #馴染めないエピソードをSNSに投稿",
               symbol: (
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -260,7 +260,7 @@ const BenefitsSection = () => (
             },
             { 
               title: "仲間との絆", 
-              description: "理解し合える仲間との出会い",
+              description: "理解し合える仲間との出会い #Discordで同じ悩みを持つ人と連絡",
               symbol: (
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
@@ -269,7 +269,7 @@ const BenefitsSection = () => (
             },
             { 
               title: "成長機会", 
-              description: "新しい可能性を見つける場",
+              description: "新しい可能性を見つける場 #Web3・クリエイターエコノミーで新しい働き方",
               symbol: (
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 010 1.193M21.75 18l-2.558-2.558a9.93 9.93 0 00-.953-10.535l-1.62-1.62C15.204 1.874 13.632 1.5 12 1.5s-3.204.374-4.62 1.787L5.76 4.907a9.93 9.93 0 00-.953 10.535L2.25 18z" />
@@ -278,7 +278,7 @@ const BenefitsSection = () => (
             },
             { 
               title: "創造性", 
-              description: "独自のアイデアを形にする力",
+              description: "独自のアイデアを形にする力 #NFTアートや動画で自分らしさを表現",
               symbol: (
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
@@ -324,18 +324,12 @@ const JoinSection = () => (
         <motion.div variants={textReveal} className="space-y-6">
           <div className="w-16 h-px bg-background mx-auto"></div>
           <h2 className="text-display font-black text-background leading-tight">
-            多様な道を認め合う
+            学校へ行かないを認め合う
             <br />
             未来へ
           </h2>
         </motion.div>
         
-        <motion.p 
-          variants={textReveal}
-          className="text-xl text-background/70 max-w-2xl mx-auto font-light"
-        >
-          あなたの "しんどい" を分かち合い、一緒に歩んでいきませんか？
-        </motion.p>
         
         <motion.div 
           variants={textReveal}
@@ -375,8 +369,8 @@ const Footer = () => (
         className="text-center space-y-12"
       >
         <motion.div variants={fadeInUp} className="space-y-4">
-          <h3 className="text-2xl font-bold text-foreground tracking-wide">SATORU PROJECT</h3>
-          <p className="text-muted font-light">うまく生きられなくても、君のペースでいい</p>
+          <h3 className="text-2xl font-bold text-foreground tracking-wide">サトルプロジェクト</h3>
+          <p className="text-muted font-light">学校になじめなくても、いいじゃん</p>
         </motion.div>
         
         <motion.div 
