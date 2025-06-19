@@ -27,13 +27,32 @@ const textReveal = {
 // Hero Section Component
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-    <div 
-      className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-      style={{
-        backgroundImage: "url('/images/hero.jpg')",
-      }}
-    />
+    <video 
+      className="absolute inset-0 w-full h-full object-cover"
+      autoPlay
+      muted
+      loop
+      playsInline
+    >
+      <source src="/images/hero.mp4" type="video/mp4" />
+    </video>
     <div className="absolute inset-0 bg-black/40" />
+    
+    {/* Logo */}
+    <div className="absolute top-8 left-8 z-20">
+      <div className="flex items-center space-x-3">
+        <div className="relative">
+          <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+          </svg>
+        </div>
+        <h1 className="text-white text-xl font-bold tracking-wide" style={{ fontFamily: 'serif' }}>
+          サトルプロジェクト
+        </h1>
+      </div>
+    </div>
+    
     <div className="relative z-10 text-center px-8 max-w-6xl mx-auto">
       <motion.div
         initial="initial"
@@ -97,7 +116,7 @@ const AboutSection = () => (
           
           <div className="space-y-6 text-lg text-muted leading-relaxed font-light">
             <p>
-              サトルコインは、学校や社会になじめない子どもたちを支援するプロジェクトです。
+              サトルプロジェクトは、学校や社会になじめない子どもたちを支援するプロジェクトです。
             </p>
             <p>
               私たちは、一人ひとりの "しんどい" を理解し、温かいコミュニティを通じて
