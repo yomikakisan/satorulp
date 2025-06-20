@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import { usePathname } from 'next/navigation'
 
 // Animation variants
 const fadeInUp = {
@@ -34,7 +35,7 @@ const HeroSection = () => (
       loop
       playsInline
     >
-      <source src="/images/hero.mp4" type="video/mp4" />
+      <source src="/satorulp/images/hero.mp4" type="video/mp4" />
     </video>
     <div className="absolute inset-0 bg-black/40" />
     
@@ -135,7 +136,7 @@ const AboutSection = () => (
         <motion.div variants={fadeInUp} className="relative">
           <div className="aspect-[4/3] overflow-hidden border border-muted/20">
             <Image
-              src="/images/about.jpg"
+              src="/satorulp/images/about.jpg"
               alt="サトル & 仲間たち"
               width={800}
               height={600}
