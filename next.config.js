@@ -2,8 +2,6 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: '/satorulp',
-  assetPrefix: '/satorulp',
   images: {
     unoptimized: true,
     domains: [],
