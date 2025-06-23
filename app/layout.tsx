@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: 'Satoru Project',
     images: [
       {
-        url: 'https://yomikakisan.github.io/satorulp/images/hero.jpg',
+        url: 'https://yomikakisan.github.io/satorulp/images/ogp-card.jpg?v=1750650479',
         width: 1200,
         height: 630,
         alt: 'Satoru Project - 学校になじめなくても、いいじゃん',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Satoru Project - 学校になじめなくても、いいじゃん',
     description: 'サトルプロジェクトは、学校や社会になじめない子どもたちを支援するプロジェクトです。Web3の世界で新しい価値観と仲間に出会える場所を作ります。',
-    images: ['https://yomikakisan.github.io/satorulp/images/hero.jpg'],
+    images: ['https://yomikakisan.github.io/satorulp/images/ogp-card.jpg?v=1750650479'],
     creator: '@yomikakisan',
     site: '@yomikakisan',
   },
@@ -51,14 +51,15 @@ export default function RootLayout({
         <meta name="twitter:creator" content="@yomikakisan" />
         <meta name="twitter:title" content="Satoru Project - 学校になじめなくても、いいじゃん" />
         <meta name="twitter:description" content="サトルプロジェクトは、学校や社会になじめない子どもたちを支援するプロジェクトです。Web3の世界で新しい価値観と仲間に出会える場所を作ります。" />
-        <meta name="twitter:image" content="https://yomikakisan.github.io/satorulp/images/hero.jpg" />
+        <meta name="twitter:image" content="https://yomikakisan.github.io/satorulp/images/ogp-card.jpg?v=1750650479" />
+        <meta name="twitter:image:alt" content="Satoru Project - 学校になじめなくても、いいじゃん" />
         
         {/* Facebook OG 追加設定 */}
-        <meta property="og:url" content="https://yomikakisan.github.io/satorulp" />
+        <meta property="og:url" content="https://yomikakisan.github.io/satorulp/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Satoru Project - 学校になじめなくても、いいじゃん" />
         <meta property="og:description" content="サトルプロジェクトは、学校や社会になじめない子どもたちを支援するプロジェクトです。Web3の世界で新しい価値観と仲間に出会える場所を作ります。" />
-        <meta property="og:image" content="https://yomikakisan.github.io/satorulp/images/hero.jpg" />
+        <meta property="og:image" content="https://yomikakisan.github.io/satorulp/images/ogp-card.jpg?v=1750650479" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="Satoru Project" />
